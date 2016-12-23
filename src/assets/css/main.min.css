@@ -1,0 +1,54 @@
+/*******main-content*********/
+.main-content-wrapper {
+    padding:20px 20px 0 20px;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+#app,#mapedit,#user,#alarm{
+    height:100%;
+}
+.btn-edit {
+    margin:10px 0;
+}
+.el-select .el-input {
+    width: 90px;
+}
+.el-dialog--small {
+    width: 550px;
+}
+.el-checkbox__inner::after{
+    top:3px;
+    left:6px;
+}
+.el-dropdown-menu{
+    margin:0;
+    top:70px!important;
+}
+.el-dropdown-menu::after{
+    content:'';
+    width: 0;
+    height: 0;
+    position:relative;
+    top:-105px;
+    left:60px;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-bottom: 10px solid #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
